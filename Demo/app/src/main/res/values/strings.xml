@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Demo</string>
+<!--    <string name="app_name">Book Market</string>-->
+    <string name="set_as_wallpaper">Set as wallpaper</string>
+
+    <string name="tv_title">Sách là nguồn tri thức vô tận</string>
+    <string name="tv_titleLG">Sách là phép màu di động duy nhất!!!</string>
+    <string name="edt_email">Nhập email</string>
+    <string name="edt_pass">Nhập mật khẩu</string>
+    <string name="let_go">Let go</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

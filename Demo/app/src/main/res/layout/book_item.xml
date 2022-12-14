@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:id="@+id/layout_book_item"
+
+    app:cardElevation="12dp"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bg_button"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sacha"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$1.0"
+            android:textSize="30sp"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:id="@+id/txtPrice"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Name"
+            android:layout_gravity="start"
+            />
+<!--        <Button-->
+<!--            android:id="@+id/btnAdd"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:background="@drawable/edt_backgroungsg"-->
+<!--            android:text="Thêm"/>-->
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

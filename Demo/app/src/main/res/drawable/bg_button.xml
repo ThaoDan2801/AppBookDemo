@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/bg_buttonn"/>
+    <corners android:radius="25dp"/>
+    <gradient android:startColor="#f8bbd0"
+        android:centerColor="#b39ddb"
+        android:endColor="#80d8ff"/>
+
+</shape>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_buttonsg"
+    android:id="@+id/ll_sg"
+    >
+    <TextView
+        android:id="@+id/tv_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="30dp"
+        android:text="Đăng Ký"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <EditText
+            android:id="@+id/name"
+            android:textColorHint="@color/colorPlaceholder"
+            android:drawableTint="@color/colorTextBlack"
+            android:hint="Nhập tên"
+            android:textColor="@color/colorTextBlack"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edt_backgroungsg"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:textColorHint="@color/colorPlaceholder"
+            android:drawableTint="@color/colorTextBlack"
+            android:hint="@string/edt_email"
+            android:textColor="@color/colorTextBlack"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edt_backgroungsg"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/pass"
+            android:textColorHint="@color/colorPlaceholder"
+            android:drawableTint="@color/colorTextBlack"
+            android:hint="Nhập mật khẩu"
+            android:textColor="@color/colorTextBlack"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edt_backgroungsg"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="20dp"/>
+<!--        <EditText-->
+<!--            android:textColorHint="@color/colorPlaceholder"-->
+<!--            android:drawableTint="@color/colorTextBlack"-->
+<!--            android:hint="Nhập lại mật khẩu"-->
+<!--            android:textColor="@color/colorTextBlack"-->
+<!--            android:paddingLeft="26dp"-->
+<!--            android:paddingRight="26dp"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:fontFamily="@font/seg_ui_semibold"-->
+<!--            android:background="@drawable/edt_backgroungsg"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="52dp"-->
+<!--            android:layout_marginLeft="48dp"-->
+<!--            android:layout_marginRight="48dp"-->
+<!--            android:layout_marginTop="20dp"/>-->
+        <Button
+            android:id="@+id/btn_sg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonText"
+            android:textSize="16dp"
+            android:text="Đăng ký"
+            android:background="@drawable/edt_backgroungsg"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

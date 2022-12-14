@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775224107383",
+    "project_id": "fir-dbc39",
+    "storage_bucket": "fir-dbc39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775224107383:android:b92951a1d99a9674968172",
+        "android_client_info": {
+          "package_name": "com.glucozo.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775224107383-casodfuh96i4drhv0ouptfg8o9g31bcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY0-3dU4ATzOKnwkLZUOM8kFdcpBBn6V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775224107383-casodfuh96i4drhv0ouptfg8o9g31bcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

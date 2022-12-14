@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:id="@+id/login"
+    tools:context=".welcome.login.LoginActivity"
+    android:background="@color/bg_buttonn">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="Welcome Back"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:textColor="@color/colorTextWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="@string/tv_titleLG"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:textColor="@color/colorTextWhite"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="26dp"
+            android:text="LOGIN"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="48dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp"
+            >
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableEnd="@drawable/user_icon"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="@string/edt_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+            <EditText
+                android:id="@+id/input_pass"
+                android:textColorHint="@color/colorPlaceholder"
+                android:layout_marginTop="24dp"
+                android:drawableEnd="@drawable/lock_icon"
+                android:drawableTint="@color/colorTextBlack"
+                android:hint="@string/edt_pass"
+                android:textColor="@color/colorTextBlack"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+
+            <CheckBox
+                android:id="@+id/check_pass"
+                android:buttonTint="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:text="Nhớ mật khẩu"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp">
+
+                <Button
+                    android:id="@+id/btn_lg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="16dp"
+                    android:text="Login"
+                    android:background="@drawable/bg_button"
+                    android:fontFamily="@font/seg_ui_semibold"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hoặc"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorTextBlack"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="3"
+                android:layout_gravity="center"
+               >
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:src="@drawable/icon_facebook"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+
+                android:src="@drawable/icon_google"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+
+                android:src="@drawable/icon_telegram"/>
+
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="18dp"
+                android:text="Bạn chưa có tài khoản?"
+                android:fontFamily="@font/seg_ui_semibold"
+                />
+            <TextView
+                android:id="@+id/tv_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18dp"
+                android:text="Đăng ký"
+                android:layout_marginStart="35dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:layout_marginLeft="12dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

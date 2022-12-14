@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0E68FF</color>
+    <color name="colorPrimaryDark">#0E68FF</color>
+    <color name="colorTextWhite">#ffffff</color>
+
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorEditText">#14000000</color>
+    <color name="colorEditTextsg">#ffcdd2</color>
+    <color name="colorButton">#0E68FF</color>
+    <color name="colorButtonText">#ffffff</color>
+    <color name="colorPlaceholder">#505050</color>
+    <color name="colorTextPrimary">#a00037</color>
+
+
+    <color name="bg_main">#ffebee</color>
+    <color name="bg_buttonn">#f8bbd0</color>
+    <color name="cl_textlg">#FF000000</color>
+    <color name="cl_bt_book">#ef9a9a</color>
+    <color name="cl_tv_namebook">#b71c1c</color>
+    <color name="bg_cart">#fce4ec</color>
+    <color name="tv_cart">#4e342e</color>
+    <color name="tv_listcart">#d81b60</color>
+
+</resources>
